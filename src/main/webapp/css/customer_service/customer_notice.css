@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+#wrapper {
+    padding-bottom: 40px;
+}
+
+#title {
+    margin: 30px 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* 목록 선택 */
+#list_title {
+    width: 600px;
+    height: 58px;
+    padding: 8px 0;
+    margin: 30px 20px 0;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px solid rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(246, 246, 246);
+    cursor: pointer;
+}
+#change_policy, #fraud_prevention {
+    color: #CCC;
+}
+/* // 목록 선택 */
+
+
+/* 목록 선택시 하단 공지 */
+#list_contents {
+    margin-top: 20px;
+    padding: 30px 20px 0;
+}
+
+.general_content, .change_policy_content, .fraud_prevention_content {
+    border-bottom: 1px solid rgb(246, 246, 246);
+    padding: 20px 0;
+}
+.general_content > p:nth-child(1), .change_policy_content > p:nth-child(1), .fraud_prevention_content > p:nth-child(1) {
+    margin-bottom: 5px;
+}
+.general_content > p:nth-child(2) , .change_policy_content > p:nth-child(2) , .fraud_prevention_content > p:nth-child(2) {
+    font-size: 8px;
+    color: #666;
+    font-weight: bold;
+}
+/* 정책변경, 사기예방 display none */
+#change_policy_lists_area, #fraud_prevention_lists_area {
+    display: none;
+}
+/* // 목록 선택시 하단 공지 */

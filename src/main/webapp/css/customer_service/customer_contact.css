@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#inquiry {
+    font-size: 14px;
+}
+
+/* 유형 선택 */
+#choice, #sub_choice {
+    margin: 30px 0 0 20px;
+}
+#choice > p > i, #sub_choice > p > i {
+    color: red;
+    font-size: 7px;
+}
+#choice > div, #sub_choice > div {
+    height: 54px;
+    margin-top: 8px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 7px;
+    font-size: 16px;
+    color: #B2B2B2;
+    line-height: 54px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#choice > div > p, #sub_choice > div > p {
+    margin-left: 20px;
+    display: inline-block;
+    width: 570px;
+}
+#choice > div > p > i, #sub_choice > div > p > i {
+    float: right;
+    margin-right: 10px;
+}
+/* // 유형 선택 */
+
+
+/* 문의 내용 */
+#inquiry_content {
+    margin: 30px 0 0 20px;
+}
+#inquiry_content > p > i {
+    color: red;
+    font-size: 7px;
+}
+#inquiry_content > textarea {
+    margin-top: 8px;
+    resize: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    width: 620px;
+    height: 154px;
+    padding: 15px 0 0 15px;
+    font-size: 16px;
+    outline: none;
+}
+#inquiry_content > textarea::placeholder {
+    color: #B2B2B2;
+}
+/* // 문의 내용 */
+
+
+/* 사진 첨부 */
+#add_img {
+    margin: 30px 0 0 20px;
+}
+#add_img > p:nth-child(2) {
+    color: #999;
+    font-size: 13px;
+}
+#add_img > div {
+    margin-top: 30px;
+}
+.image_box {
+    width: 206.66px;
+    padding: 0;
+}
+div.image_box:nth-child(1), div.image_box:nth-child(2) {
+    margin-right: 25px;
+}
+.image_box > div {
+    width: 190px;
+    height: 190px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 8px;
+    position: relative;
+}
+.image_box > div > input {
+    display: none;
+}
+.img_upload {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+    cursor: pointer;
+}
+.change_img{
+    max-width: 190px;
+    max-height: 190px;
+}
+/* // 사진 첨부 */
+
+
+/* 문의하기 버튼 */
+#inquiry_btn {
+    margin: 90px 0 0 20px;
+    height: 80px;
+}
+#inquiry_btn > button {
+    width: 620px;
+    height: 53.6px;
+    background-color: #D80C18;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+}
+/* // 문의하기 버튼 */
+
+
+/* 유형선택 클릭시 메뉴창 */
+/* 서브유형 */
+#sub_choice {
+    display: none;
+}
+
+/* 유형 선택시 배경 */
+#bg_color {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+}
+/* 유형 목록 */
+#click_choice, .sub_choice_click {
+    position: fixed;
+    margin: 0 auto;
+    left: 20px;
+    right: 0;
+    bottom: 0;
+    width: 620px;
+    text-align: center;
+    background-color: white;
+    padding: 34px 40px 24px;
+    color: #CCC;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    z-index: 10000;
+    display: none;
+}
+#click_choice > p, .sub_choice_click > p {
+    margin: 18px 0;
+    cursor: pointer;
+}
+#click_choice > p:hover, .sub_choice_click > p:hover {
+    color: black;
+}
+
+/* // 유형선택 클릭시 메뉴창 */

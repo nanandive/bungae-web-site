@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+#wrapper {
+    padding-bottom: 40px;
+}
+
+#title {
+    margin: 30px 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* 검색창 */
+#search_area {
+    background-color: #FAFAFA;
+    margin: 30px 20px 0;
+    height: 48px;
+    border-radius: 5px;
+}
+#search_area > img {
+    margin-left: 15px;
+    margin-top: -2px;
+}
+#search_area > input {
+    width: 563px;
+    height: 48px;
+    border: none;
+    background-color: #FAFAFA;
+    font-weight: normal;
+    outline: none;
+    padding-left: 10px;
+}
+#search_area > input::placeholder {
+    color: #CCC;
+    font-weight: bold;
+    
+}
+/* // 검색창 */
+
+
+/* 상단 메뉴바 */
+#top_menu_bar {
+    width: 600px;
+    margin: 35px 20px 0;
+    border-top: 1px solid rgb(244, 244, 250);
+    border-bottom: 1px solid rgb(244, 244, 250);
+}
+#top_menu_bar > div > div:nth-child(1) ,#top_menu_bar > div > div:nth-child(2), #top_menu_bar > div > div:nth-child(3) {
+    padding: 25px 0 10px;
+}
+#top_menu_bar > div > div:nth-child(4) ,#top_menu_bar > div > div:nth-child(5), #top_menu_bar > div > div:nth-child(6) {
+    padding: 10px 0 25px;
+}
+.select_menu {
+    font-weight: bold;
+    color: #CCC;
+    cursor: pointer;
+}
+#member {
+    color: black;
+}
+/* // 상단 메뉴바 */
+
+
+/* 하단 목록들 */
+#list_contents {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.member_content, .conflict_content, .payment_content, .care_content, .sales_advertisement_content, .etc_content {
+    padding: 17px 0;
+}
+.member_content > p::before , .conflict_content > p::before , .payment_content > p::before , 
+.care_content > p::before , .sales_advertisement_content > p::before , .etc_content > p::before {
+    content: "Q";
+    margin-right: 5px;
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+}
+.member_content > p > i, .conflict_content > p > i, .payment_content > p > i, 
+.care_content > p > i, .sales_advertisement_content > p > i, .etc_content > p > i {
+    float: right;
+    color: #CCC;
+}
+
+#conflict_lists_area, #payment_lists_area, #care_lists_area, #sales_advertisement_lists_area, #etc_lists_area {
+    display: none;
+}
+/* // 하단 목록들 */
