@@ -3,6 +3,10 @@
 
 
 번개장터 - pdf https://drive.google.com/file/d/1HRydBq-GBjQIYC-1tPli3Ujg5j_5s-lG/view?usp=sharing
+
+-구현 기능 프론트 80% , 리스트 
+
+
 다운로드 - [번개장터.pdf](https://github.com/nanandive/jsp-web-site/files/12081847/default.pdf)
 
 
@@ -11,7 +15,7 @@
 ![image](https://github.com/nanandive/jsp-web-site/assets/117037428/57d6e5d6-2389-4a7a-8bf4-37e0cc21503d)
 ![image](https://github.com/nanandive/jsp-web-site/assets/117037428/22ab60fc-502a-4ba3-8f44-f021cf5f1ed8)
 
--구현 기능 프론트 80% , 리스트 
+
 ![image](https://github.com/nanandive/jsp-web-site/assets/117037428/b562a859-57cd-4c32-be44-700a2426d681)
 ![image](https://github.com/nanandive/jsp-web-site/assets/117037428/7e631e33-1cb7-461b-a90f-9e41a0afbbb6)
 ![image](https://github.com/nanandive/jsp-web-site/assets/117037428/8a7fbec1-210e-40a6-b6f5-3bbf2d17cc9d)
